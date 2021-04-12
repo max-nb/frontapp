@@ -1,0 +1,40 @@
+<div class="espaçamento">
+  <mat-card>
+<div *ngIf="showCard">
+  <p>Pense em um prato que vc gosta</p>
+  <button (click)="toogleTag()">Ok</button>
+</div>
+
+<div *ngIf="hiddeCard">
+    <p>{{item}}</p>
+    <button *ngIf="showButton" (click)="showPergunta2()">Sim</button>
+    <button *ngIf="showButton"(click)="showPergunta1()">Não</button>
+    <button *ngIf="hiddeButton" (click)="voltaInicio()">Ok</button>
+</div>
+
+<div *ngIf="showInput">
+  <form>
+    <mat-form-field>
+      <input matInput placeholder="Pergunta" [(ngModel)]="input1" name="Pergunta">
+    </mat-form-field>
+  </form>
+  <button (click)="mostrarInput()">Ok</button>
+</div>
+
+<div *ngIf="hiddeInput">
+  <form>
+    <mat-form-field>
+      <input matInput placeholder="Pergunta" [(ngModel)]="input2" name="Pergunta">
+    </mat-form-field>
+  </form>
+  <button (click)="inserePergunta()">Ok</button>
+</div>
+
+
+</mat-card>
+</div>
+
+
+
+
+

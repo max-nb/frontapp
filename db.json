@@ -1,0 +1,34 @@
+{
+  "perguntas": [
+    {
+      "id": 1,
+      "pergunta1": "massa",
+      "pergunta2": "Lasanha"
+    },
+    {
+      "pergunta1": "ovo frito",
+      "pergunta2": "gorduroso",
+      "id": 2
+    },
+    {
+      "pergunta1": "teste",
+      "pergunta2": "teste",
+      "id": 3
+    },
+    {
+      "pergunta1": "gorduroso",
+      "pergunta2": "ovo frito",
+      "id": 4
+    },
+    {
+      "pergunta1": "gorduroso",
+      "pergunta2": "peixe frito",
+      "id": 5
+    },
+    {
+      "pergunta1": "perfeito",
+      "pergunta2": "Lasanha",
+      "id": 6
+    }
+  ]
+}
